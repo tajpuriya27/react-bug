@@ -21,7 +21,7 @@ Creating this repository to discuss about the cause of this behaviour and trying
 
 Logically, below code seems same. But when used with react; it shows different behaviour.
 
-- **Code No. 1**  
+- **Code No. #1**  
    using ternary operator:
 
   ```jsx
@@ -31,7 +31,7 @@ Logically, below code seems same. But when used with react; it shows different b
   }
   ```
 
-- **Code No. 2**  
+- **Code No. #2**  
    using AND operator:
 
   ```jsx
