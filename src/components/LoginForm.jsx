@@ -1,18 +1,14 @@
-const LoginForm = (props) => {
-  const { handleSubmit, handleUsernameChange, username } = props;
+const LoginForm = ({ handleSubmit, handleUsernameChange, username }) => {
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        username
-        <input
-          type="text"
-          value={username}
-          name="Username"
-          onChange={handleUsernameChange}
-        />
-      </div>
-      <button type="submit">login</button>
-    </form>
+    <div>
+      <h2>Login</h2>
+      <form onSubmit={handleSubmit}>
+        <label>username</label>
+        <input value={username} onChange={handleUsernameChange} />
+        <br />
+        <button type="submit">login</button>
+      </form>
+    </div>
   );
 };
 
